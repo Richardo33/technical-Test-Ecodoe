@@ -1,0 +1,108 @@
+/* * {
+    background-color: aqua;
+} */
+
+/* .home .banner img{
+    width: auto;
+    height: 15em;
+    margin: 2em 5em;
+    margin-right: 2em;
+} */
+
+/* .home .productList{
+    background-color: aqua;
+} */
+
+.home .productList .mapProduct{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* margin-right: 50px; */
+    
+}
+
+.home .productList .mapProduct .list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.home .productList .mapProduct .list img{
+    width: 15rem;
+    height: 14em;
+}
+
+.home .productList .mapProduct .list .buy{
+  position: relative;
+  opacity: 0;
+  padding: 8px 35px;
+  color: white;
+  text-decoration: none;
+  background: #0B7954;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.home .productList .mapProduct .list:hover .buy {
+    top: 0;
+  opacity: 1;
+}
+
+/* .home .footer{
+    margin-bottom: 2em;
+} */
+
+.home .footer .head .foot{
+    display: flex;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.home .footer .head .foot .left{
+    flex: 50%;
+    display: flex;
+}
+
+.home .footer .head .foot .left .address{
+    flex: 60%;
+    padding-right: 1em;
+}
+
+.home .footer .head .foot .left .about{
+    flex: 40%;
+}
+
+.home .footer .head .foot .left .about .socmed img{
+    height: auto;
+    width: 3em;
+    margin-right: 1em;
+}
+
+.home .footer .head .foot .right{
+    flex: 50%;
+}
+
+.home .footer .head .foot .right a{
+    text-decoration: none;
+    color: white;
+}
+
+.home .createdBy{
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.home .createdBy p{
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 3px 0%;
+    margin-top: 15px;
+}
